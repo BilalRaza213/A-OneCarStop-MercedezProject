@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.impressum-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.impressum-container h1 {
+    color: #333;
+}
+
+.impressum-container p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.impressum-container a {
+    color: #007bff;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.about-container h2 {
+    color: #333;
+}
+
+.about-container p {
+    color: #666;
+    line-height: 1.6;
+}
+
+footer{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.footer{
+    height: 800px;
+    width: 100%;
+}
+
+.headerIframe{
+    width: 100%;
+    
+}
+

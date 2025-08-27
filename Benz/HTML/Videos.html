@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Presentation</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: black;
+            
+        }
+
+        .vid1{
+            width: 100%;
+            height: 100%;
+        }
+
+        .bigContainer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100%;
+            border: red;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            height: 500px;
+            width: 1200px;
+            border: 2px solid gray;
+            border-radius: 50px;
+        }
+
+        video{
+            border-radius: 100px;
+        }
+        .iframVideo{
+            border: 2px red;
+            width: 100%;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <iframe class="iframVideo" src="Header.html" frameborder="0" scrolling = "no"></iframe>
+    <div class="bigConatiner">
+        <div class="container">
+            <video class="vid1" autoplay loop muted src="/Vids/Video (2).mp4" controls></video>
+        </div>    
+    </div>
+    
+</body>
+</html>

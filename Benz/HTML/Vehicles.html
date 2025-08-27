@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicles</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: black;
+        }
+
+        h1{
+            border: 2px solid black;
+            height: 100px;
+            width: 100%;
+        }
+        .vehicleContainer{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-color: black;
+        }
+        .column1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .column2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+
+        .headerIframe{
+            width: 100%;
+            height: 100px;
+        }
+        .footer{
+            width: 100%;
+            height: 500px;
+        }
+        iframe{
+            width: 500px;
+            height: 450px;
+        }
+        .slider{
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+        }
+        .sliderIfram{
+            width: 100%;
+            height: 100%;
+
+            margin-bottom: 50px;
+
+        }
+    </style>
+</head>
+<body>
+    
+        <iframe class="headerIframe" src="Header.html" scrolling="no" frameborder="0"></iframe>
+
+        <div class="slider">
+            <iframe class="sliderIfram" src="/HTML/Slider.html" scrolling="no" frameborder="0"></iframe>
+        </div>
+        <div class="vehicleContainer">
+            <div class="column1">
+                <iframe src="/HTML/VehicleCard1.html" scrolling="no" frameborder="0"></iframe>
+                <iframe src="/HTML/VehicleCard2.html" scrolling="no" frameborder="0"></iframe>
+                <iframe src="/HTML/VehicleCard3.html" scrolling="no" frameborder="0"></iframe>
+                <iframe src="/HTML/VehicleCard4.html" scrolling="no" frameborder="0"></iframe>
+                <iframe src="/HTML/VehicleCard5.html" scrolling="no" frameborder="0"></iframe>
+            </div>
+            <div class="column2">
+                <iframe src="/HTML/VehicleCard6.html" scrolling="no" frameborder="0"></iframe>
+                <iframe src="/HTML/VehicleCard7.html" scrolling="no" frameborder="0"></iframe>
+                <iframe src="/HTML/VehicleCard8.html" scrolling="no" frameborder="0"></iframe>
+                <iframe src="/HTML/VehicleCard9.html" scrolling="no" frameborder="0"></iframe>
+                <iframe src="/HTML/VehicleCard10.html" scrolling="no"  frameborder="0"></iframe>
+            </div>
+        </div>
+        
+        <iframe class="footer"  scrolling="no" src="Footer.html" frameborder="0"></iframe>
+        
+    
+</body>
+</html>

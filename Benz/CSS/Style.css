@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: white;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 100%;
+    line-height: 100px;   
+    
+}
+.header{
+    padding-left: 50px;
+    font-size: 10px;
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 50px 20px 100px 350px 500px 100px;
+    grid-template-areas: "deutsch line English provider_policy logo search login";
+    
+}
+.header:hover{
+    color: grey;
+    transition: .5s;
+    cursor: pointer;
+}
+.header label:hover{
+    color: white;
+    cursor: pointer;
+}
+.header label a{
+    color: gray;
+    cursor: pointer;
+}
+.header label a:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.navBar a:hover{
+    color: white;
+    cursor: pointer;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none; 
+    }
+
+.deutsch{
+    grid-area: deutsch;
+}
+.line{
+    grid-area: line;
+}
+
+.line:hover{
+    cursor: none;
+    
+}
+
+.English{
+    grid-area: English;
+}
+.provider_policy{
+    grid-area: provider_policy;
+}
+.logo{
+    grid-area: logo;
+}
+
+/* .logo:hover{
+    cursor: pointer;
+    animation-name: animation1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    transition: 3s;
+    animation-timing-function: ease-out;
+}
+@keyframes animation1 {
+    from{   
+       transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(45deg);
+    }
+    
+} */
+
+.search{
+    grid-area: search;
+}
+.login{
+    grid-area: login;
+}
+img{
+    padding-top: 20px;
+    height: 70px;
+    width: 100px;
+}
+
+
+
+.hd{
+background-color: black;
+height: 10vh;
+width: 100%;
+
+}
+p{
+font-family: 'Times New Roman', Times, serif;
+font-weight: lighter;
+font-size: 15px;
+color: rgb(185, 175, 175);
+padding: 20px;
+padding-left: 150px;
+}
+ul{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(36, 34, 34, 0.7);
+height: 50px;
+width: 100%;
+list-style: none;
+gap: 100px;
+}
+
+
+
+.img1{
+width: 100%;
+height: 500px;
+position: absolute;
+z-index: 0;
+}
+
+.introVideo{
+    height: 80vh;
+    background-color: none;
+    /* display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 200px 200px;
+    grid-template-areas: 
+    "h1" "btn1"; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    padding-left: 100px;
+}
+.vid1{
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    
+}
+.secondVid{
+    height: 120vh;
+    width: 100%;
+    /* display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 200px 200px;
+    grid-template-areas: 
+    "h1" "btn1"; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    
+}
+.imgV{
+    height: 100%;
+    width: 100%;    
+}
+.vid2{
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    
+}
+
+h1{
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.btn1{
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.btn1:hover{
+    background-color: #0078d6;
+    color: white;
+
+}
+
+.footer{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+.hoverCard1{
+    height: 500px;
+    width: 100%;   
+}
+
+.blackBoxDiv{
+    height: 100px;
+    width: 100px;
+}
+
+.bBox{
+    height: 150vh;
+    width: 100%;
+}
+
+.wFooter{
+    height: 80vh;
+    width: 100%;
+}
+
+.hoverCard1{
+    height: 800px;
+    width: 100%;   
+}
+
+
+
+

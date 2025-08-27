@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hoverCard</title>
+
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hoverCard1{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: lighter;
+        display: flex;
+        flex-direction: column;        
+        justify-content: space-between;
+    }
+
+    .img{
+        transition: transform .9s; 
+    }
+
+    .img:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+
+    .hoverCard1>div{
+        margin: 20px;
+    }
+
+</style>
+
+</head>
+<body>
+    
+    <div class="hoverCard1">
+        <div class="heading1">
+            <p>Exclusive</p>
+        </div>
+        <div class="heading2">
+            <h2>Mercedes-Benz' new Sustainability Prize.</h2>
+        </div>
+        <div class="img">
+            <img src="/img/hoverCardImg6.PNG" alt="">
+        </div>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VehicleCards</title>
+
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    
+   .card {
+    position: relative;
+    width: 650px;
+    height: 400px;
+    margin: 20px;
+    overflow: hidden;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 1.0s;
+  }
+  
+  .card:hover .card-text {
+    opacity: 1; /* Show text on hover */
+  }
+</style>
+
+
+</head>
+<body>
+
+
+    <div class="card">
+        <img src="/img/classic silver coupe, Mercedes-Benz, Mercedes-Benz 300SL.jpg" alt="Image" class="card-image">
+        <div class="card-text">
+           <ul>
+            <li>Brand: Mercedes-Benz</li>
+            <li>Type: Coupe</li>
+            <li>Model: 300SL</li>
+            <li>Features: Classic design, iconic model</li>
+            <li>Color: Silver</li>
+            <li>Description: Iconic coupe renowned for its timeless design and performance </li>
+            
+           </ul>
+        </div>
+    </div>
+
+</body>
+</html>

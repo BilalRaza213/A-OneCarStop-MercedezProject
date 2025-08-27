@@ -1,0 +1,212 @@
+
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+background-color: black;
+}
+.box{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 150px;
+width: 180vh;
+margin-left: 150px;
+margin-top: 40px;
+border: 1px solid white;
+
+}
+.newsletter{
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+padding-left: 30px;
+color: white;
+font-size: 17px;
+}
+p{
+padding-left: 30px;
+color: rgb(180, 175, 175);
+font-size: 15px;
+}
+.btn{
+background-color: #0078d6;
+color: white;
+border: none;
+height: 50px;
+width: 300px;
+margin: 80px;
+border-radius: 5px;
+font-size: 15px;
+font-weight: bold;
+}
+
+
+.btn:hover{
+background-color: #075b9b;
+color: white;
+border: 1px solid #73baf0;
+height: 50px;
+width: 300px;
+margin: 80px;
+border-radius: 5px;
+font-size: 15px;
+font-weight: bold;
+cursor: pointer;
+}
+
+
+.box1{
+display: grid;
+border: 1px solid gray;
+height: 500px;
+width: 100%;
+grid-template-columns: 200px 200px 200px 200px 200px 200px;
+grid-template-rows: 50px 50px 50px 50px 50px 50px;
+grid-template-areas: 
+"h1 h2 h3 h4 h5 h6"
+"text1 text2 text3 text4"
+"text5 text6"
+"text7 text8 text9 text10"
+"text11 text12 text13 text14"
+"text15 text16 text17 text18"
+"text19 text20 text21 text22";
+}
+
+
+a{
+text-decoration: none;
+color: white;
+}
+
+
+.h1{
+grid-area: h1; 
+font-size: 00px;
+color: red;
+}
+.h2{
+grid-area: h2; 
+}
+.h3{
+grid-area: h3; 
+}
+.h4{
+grid-area: h4; 
+}
+.h5{
+grid-area: h5; 
+}
+.h6{
+grid-area: h6; 
+}
+
+
+.text1{
+grid-area: text1;
+}
+
+
+.text2{
+grid-area: text2;
+}
+.text3{
+grid-area: text3;
+}
+.text4{
+grid-area: text4;
+}
+
+
+.text5{
+grid-area: text5;
+}
+
+
+.text6{
+grid-area: text6;
+}
+
+
+.text7{
+grid-area: text7;
+}
+
+
+.text8{
+grid-area: text8;
+}
+
+
+.text9{
+grid-area: text9;
+}
+
+
+.text10{
+grid-area: text10;
+}
+
+
+.text11{
+grid-area: text11;
+}
+
+
+.text12{
+grid-area: text12;
+}
+
+
+.text13{
+grid-area: text13;
+}
+
+
+.text14{
+grid-area: text14;
+}
+
+
+.text15{
+grid-area: text15;
+}
+
+
+.text16{
+grid-area: text16;
+}
+
+
+.text17{
+grid-area: text17;
+}
+
+
+.text18{
+grid-area: text18;
+}
+
+
+.text19{
+grid-area: text19;
+}
+
+
+.text20{
+grid-area: text20;
+}
+
+
+.text21{
+grid-area: text21;
+}
+
+
+.text22{
+grid-area: text22;
+}
+
+

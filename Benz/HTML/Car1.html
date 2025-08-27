@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car1</title>
+    <style>
+.car-card {
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+  position: relative;
+}
+
+.car-front,
+.car-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s;
+}
+
+.car-front {
+  z-index: 2;
+}
+
+.car-back {
+  transform: rotateY(180deg);
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  backface-visibility: hidden;
+}
+
+.car-card:hover .car-front {
+  transform: rotateY(-180deg);
+}
+
+.car-card:hover .car-back {
+  transform: rotateY(0deg);
+}
+
+    </style>
+</head>
+<body>
+    <div class="car-card">
+        <div class="car-front">
+          <img src="/img/hoverCardImg3.PNG" alt="Mercedes Car">
+        </div>
+        <div class="car-back">
+          <h3>Mercedes Car</h3>
+          <p>Model: XYZ</p>
+          <p>Price: $XX,XXX</p>
+        </div>
+      </div>
+      
+      
+      
+</body>
+</html>
